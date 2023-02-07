@@ -1,0 +1,28 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@7.26.3",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  },
+  "resolutions": {
+    "vue": "3.2.47",
+    "vue-bundle-renderer": "1.0.0",
+    "@vue/runtime-core": "3.2.47",
+    "@vue/server-renderer": "3.2.47"
+  }
+}
